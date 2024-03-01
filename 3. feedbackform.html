@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Product Feedback Form</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; background-color: #f2f2f2; margin: 20px;">
+
+    <form action="#" method="post" style="max-width: 600px; margin: 0 auto; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+
+        <h2 style="text-align: center;">Product Feedback Form</h2>
+
+        <label for="name" style="display: block; margin-bottom: 8px;">Name:</label>
+        <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; margin-bottom: 16px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+
+        <label for="email" style="display: block; margin-bottom: 8px;">Email:</label>
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; margin-bottom: 16px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+
+        <label for="rating" style="display: block; margin-bottom: 8px;">Rating:</label>
+        <select id="rating" name="rating" required style="width: 100%; padding: 10px; margin-bottom: 16px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+            <option value="5">5 - Excellent</option>
+            <option value="4">4 - Very Good</option>
+            <option value="3">3 - Good</option>
+            <option value="2">2 - Fair</option>
+            <option value="1">1 - Poor</option>
+        </select>
+
+        <label for="comments" style="display: block; margin-bottom: 8px;">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" required style="width: 100%; padding: 10px; margin-bottom: 16px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; resize: vertical;"></textarea>
+
+        <input type="reset" value="reset" style="background-color: #4caf50; color: #fff; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer;" onmouseover="this.style.backgroundColor='#45a049'" onmouseout="this.style.backgroundColor='#4caf50'">
+    </form>
+
+</body>
+
+</html>
